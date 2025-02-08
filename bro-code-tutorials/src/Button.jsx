@@ -5,7 +5,7 @@ function Button() {
         e.target.textContent = "I was clicked!";
     }
 
-    return <button onClick={(e) => handleClick(e)}>Click me!</button>;
+    return <button onDoubleClick={(e) => handleClick(e)}>Click me!</button>;
 }
 
 export default Button;
